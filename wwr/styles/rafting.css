@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --primary-color: #F6CA83;
+    --secondary-color: #D0D38F;
+    --accent1-color: #9CAFB7;
+    --accent2-color: #ADB993;
+  
+    --heading-font: 'Oswald', serif;
+    --paragraph-font: 'Lato', serif;
+  
+    --nav-background-color: #9CAFB7;
+    --nav-link-color: #D0D38F;
+    --nav-hover-link-color: #000000;
+    --nav-hover-background-color: #D0D38F;
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+div .hero img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover-fit;
+}
+
+main h1 {
+    position: absolute;
+    top: 400px;
+    left: 250px;
+    background-color: rgba(14, 65, 53, 0.7);
+}
+
+article img {
+    width: 200px;
+    height: auto;
+    float:right;
+    padding: 15px;
+}
+
+article {
+    background-color:rgba(45, 65, 53, 0.7);
+}

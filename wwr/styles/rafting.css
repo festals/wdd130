@@ -54,6 +54,7 @@ main h1 {
 }
 
 article img {
+    /*position: relative;*/
     width: 200px;
     height: auto;
     float:right;

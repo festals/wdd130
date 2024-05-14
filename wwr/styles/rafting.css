@@ -25,6 +25,20 @@ body{
     padding: 20px;
 }
 
+header {
+    margin: 1rem auto;
+    display: grid;
+    align-items: center;
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;      
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);

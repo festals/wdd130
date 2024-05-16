@@ -15,33 +15,60 @@
     --nav-hover-link-color: #000000;
     --nav-hover-background-color: #D0D38F;
     font-family: var(--paragraph-font);
-    max-width: 960px;
+    /*max-width: 960px;*/
     padding: 20px;
 }
 
 body{
+    background-color:#ADB993B7;
     font-family: var(--paragraph-font);
-    max-width: 960px;
+    height: 100%;
+    /*max-width: 960px;*/
     padding: 20px;
 }
 
 header {
     margin: 1rem auto;
     display: grid;
-    align-items: center;
+    grid-template-columns: 200px auto auto auto auto ;
+    grid-template-rows: 50px 200px 50px;
     max-width: 840px;
-    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+	max-width: 1000px;
 }
 
+
+header img{
+    display:flex;
+    margin: 0 0.25rem 0 1rem;
+	width: 200px;
+	height: auto;
+    grid-column: 1/2;
+    justify-content: space-between;
+    align-items: center; 
+}
 nav {
     display:flex;
+    grid-column: 4/6;
+    grid-row: 2/3;
     justify-content: space-between;
     align-items: center;      
+}
+
+.box2{
+    width: auto;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
 }
 
 p {
@@ -52,26 +79,34 @@ footer a {
     text-decoration: none;
 }
 
-div .hero img {
+.hero {
+    background-image: linear-gradient(rgba(14, 65, 53, 0.6), rgba(0, 0, 0, 0.5)), url("images/hero.jpg");
     position: relative;
-    display: block;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main h1 {
     position: absolute;
-    top: 400px;
-    left: 250px;
-    background-color: rgba(14, 65, 53, 0.7);
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(14, 65, 53, 0.6);
 }
 article{
     position: absolute;
-    top: 505px;
-    left: auto;
+    left:50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
     color: #F6CA83;
-    background-color: rgba(14, 65, 53, 0.7);
+    background-color: rgba(14, 65, 53, 0.6);
 }
 
 article img {
@@ -81,3 +116,8 @@ article img {
     padding: 15px;
 }
 
+section p {
+    color: rgba(14, 65, 53, 0.8);
+    text-indent: 2%;
+
+}

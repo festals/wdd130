@@ -20,7 +20,7 @@
 }
 
 body{
-    background-color:#ADB993B7;
+    background-color:#ADB993;
     font-family: var(--paragraph-font);
     height: 100%;
     /*max-width: 960px;*/
@@ -32,7 +32,7 @@ header {
     display: grid;
     grid-template-columns: 200px auto auto auto auto ;
     grid-template-rows: 50px 200px 50px;
-    max-width: 840px;
+    /*max-width: 840px;*/
     border-bottom: 1px solid #ccc;
 	max-width: 1000px;
 }
@@ -74,15 +74,26 @@ h1, h2, h3, h4, h5, h6 {
 p {
     padding: 25px;
 }
-
+footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    border-bottom: 1px solid #ccc;
+}
+footer p {
+    display: flex;
+    justify-content:center;
+    
+}
 footer a {
+    display:flex;
+    justify-content: flex-end;
     text-decoration: none;
+    align-items: center; 
 }
 
 .hero {
     background-image: linear-gradient(rgba(14, 65, 53, 0.6), rgba(0, 0, 0, 0.5)), url("images/hero.jpg");
     position: relative;
-    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,6 +111,7 @@ main h1 {
     transform: translate(-50%, -50%);
     background-color: rgba(14, 65, 53, 0.6);
 }
+
 article{
     position: absolute;
     left:50%;
@@ -116,8 +128,34 @@ article img {
     padding: 15px;
 }
 
+section{
+    border-bottom: 1px solid #ccc;
+}
+
 section p {
     color: rgba(14, 65, 53, 0.8);
     text-indent: 2%;
 
 }
+.images {
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+figure img{
+   display:flex;
+   justify-content: space-between;
+   max-width:100%;
+   height: auto;
+  }
+
+figcaption {
+    display:flex;
+    grid-row: 2/3;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+

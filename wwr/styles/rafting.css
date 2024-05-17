@@ -76,13 +76,12 @@ p {
 }
 footer{
     display: grid;
-    grid-template-columns: auto auto auto auto ;
+    grid-template-columns: auto 10% 10% 10% ;
     border-bottom: 1px solid #ccc;
 }
 footer p {
     display: flex;
     justify-content:center;
-    
 }
 footer a {
     display:flex;

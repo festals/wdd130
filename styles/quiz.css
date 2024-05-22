@@ -24,6 +24,7 @@ h1 {
     color: steelblue;
     text-align: center;
 }
+
 form {
     width: 650px;
     margin: 0 auto;
@@ -48,15 +49,11 @@ legend {
     font-size: 1.3em;
 }
 
-label {
-    text-align: left;
-    padding-right: 1rem;
-}
 
 input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
-
+    width: 100%;
 }
 
 button {

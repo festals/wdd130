@@ -108,7 +108,7 @@ footer a {
 
 main h1 {
     position: absolute;
-    top: 20%;
+    top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(196, 214, 190, 0.6);
@@ -131,14 +131,19 @@ article img {
 }
 
 section{
+    padding: 10px;
     border-bottom: 1px solid #fff;
+    position: relative;
 }
 
 .map iframe {
-    width:400px;
-    height: 400px;
+    width:200px;
+    height: 200px;
     padding: 1px;
     margin: 5%;
+    position:absolute;
+    top: 0;
+    left: 60%;
 }
 
 .images {

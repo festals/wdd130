@@ -73,7 +73,9 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     padding: 25px;
+    color:#525b76;
 }
+
 footer{
     display: grid;
     grid-template-columns: auto auto 10% 10% 10% ;
@@ -132,11 +134,12 @@ section{
     border-bottom: 1px solid #fff;
 }
 
-section p {
-    color:#525b76;;
-    text-indent: 2%;
-
+.map {
+    width:100px;
+    padding: 1px;
+    margin: 5%;
 }
+
 .images {
     display:grid;
     grid-template-columns: auto auto auto auto auto;

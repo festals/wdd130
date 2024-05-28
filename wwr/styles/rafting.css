@@ -65,6 +65,30 @@ nav {
     padding: 20px;
 }
 
+.CTA{
+    display: block; 
+    height: 100px; 
+    width: 500px; 
+    background-color: white;
+    text-align: center; 
+    font-weight: bold; 
+    font-size: 300%; 
+    line-height: 100px;  
+    border-radius: 20px; 
+    margin-left:435px;
+}
+.CTA a {
+    color:#525b76;
+    text-decoration: none;
+}
+.CTA:hover {
+    background-color: #201E50;
+}
+
+.CTA a:hover{
+    color:#a2c3a4
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -165,7 +189,7 @@ figcaption {
     color: #525b76;
     font-style: italic;
     padding: 2px;
-    text-align: center;
+    text-align:left;
 }
 
 form {
@@ -235,3 +259,71 @@ button {
 button:hover {
     background-color: darkgreen;
 }
+
+
+
+
+
+/* table css*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid #525b76;;
+    font:bold;
+}
+  
+caption {
+    caption-side:top;
+    padding: 10px;
+    font-weight: bold;
+}
+  
+thead > tr {
+    background-color: rgb(228 240 245);
+}
+  
+thead > tr:nth-of-type(2) {
+    border-bottom: 2px solid #525b76;;
+}
+  
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 4px 6px;
+}
+
+th {
+  vertical-align: bottom;
+}
+
+thead > tr:last-of-type > th:nth-of-type(1) {
+    background-color: rgb(225 255 225);
+}
+  
+thead > tr:last-of-type > th:nth-of-type(5) {
+    background-color: rgb(255 225 225);
+}
+
+thead > tr:last-of-type > th:nth-of-type(6) {
+    background-color: rgb(255 225 225);
+}
+
+thead > tr:last-of-type > th:nth-of-type(7) {
+    background-color: rgb(255 225 225);
+}
+
+tbody > tr > th:first-of-type {
+    text-align: left;
+    background-color: rgb(225 229 244);
+}
+
+tbody > tr > td:nth-of-type(3) {
+    text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+}
+
+
+  

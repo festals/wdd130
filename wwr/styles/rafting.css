@@ -212,6 +212,10 @@ fieldset {
     padding: 1rem;
 }
 
+fieldset p {
+    color:#201E50;
+}
+
 legend {
     padding: 0.5rem;
     color: #201E50;

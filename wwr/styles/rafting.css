@@ -214,6 +214,7 @@ fieldset {
 
 fieldset p {
     color:#201E50;
+    font-style: italic;
 }
 
 legend {
